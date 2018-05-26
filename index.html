@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Quote Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="quotebox centered">
+            <div class="actualquote">
+                <q id="currentQuote">Don't cry because it's over. Smile because it happened.</q>
+            </div>
+            <div class="space"></div>
+            <div class="author" id="currentAuthor">
+                &#126; Dr Suess
+            </div>
+            <div class="space"></div>
+            <div class="btns">
+                <a class="tw-button" href="https://twitter.com/intent/tweet/?text=" data-size="large" target="_blank">
+                <button type="twbutton" class="fa fa-twitter btn"></button>
+                </a>
+                <button id="getQuote" class="fa fa-refresh btn"></button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="jquery.js"></script>
+</body>      
+</html>
